@@ -18,10 +18,17 @@ or using git::
         cd licenser
         python setup.py install
 ```
+##
+You can use the below code if the above one doesn't work correctly
+```
+        git clone https://github.com/digreatbrian/licenser.git
+        cd licenser
+        python -m pip install .
 
+```
 or using tar.gz::<br>
 First download tar.gz file
 ```
-        pip install licenser-1.0.tar.gz
+        pip install licenser-1.0.0.tar.gz
 ```
 <b>Happy Licensing with Licenser</b>
